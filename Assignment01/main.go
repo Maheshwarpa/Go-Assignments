@@ -16,6 +16,6 @@ func main() {
 	s.AddMark(20)
 	fmt.Println(s.Name)
 	fmt.Println(s.Marks)
-	fmt.Println("Average is:", s.CalculateAverage())
+	fmt.Printf("Average is: %.2f", s.CalculateAverage())
 
 }
