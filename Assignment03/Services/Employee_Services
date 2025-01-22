@@ -1,0 +1,9 @@
+package Services
+
+type EmpServices interface {
+	AddEmployee(e Employee) EmployeeList
+	UpdateEmployee(id int, e Employee) EmployeeList
+	DeleteEmployee(id int) Bool
+	DisplayEmployee(id int) Employee
+	DisplayAll()
+}
