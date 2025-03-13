@@ -10,7 +10,7 @@ func main() {
 	var s structPractice.Student
 
 	s.Name = "Maheshwar"
-	s.Marks = []int{10, 10, 10, 10, 10
+	s.Marks = []int{10, 10, 10, 10, 10}
 
 	fmt.Println("Average is:", s.CalculateAverage())
 	s.AddMark(20)
