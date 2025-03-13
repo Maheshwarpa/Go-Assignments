@@ -1,7 +1,7 @@
 package service
 
 import (
-	"github.com/Maheshwarpa/Go-Assignments.git/models"
+	"github.com/Maheshwarpa/Go-Assignments/models"
 	"net/http"
 )
 
