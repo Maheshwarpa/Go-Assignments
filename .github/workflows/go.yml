@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'Assignment01/**'
   pull_request:
     branches:
       - main
