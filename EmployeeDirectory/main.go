@@ -1,8 +1,8 @@
 package main
 
 import (
-	"employeeeDirectory/repository"
-	"employeeeDirectory/service"
+	"github.com/Maheshwarpa/Go-Assignments.git/repository"
+	"github.com/Maheshwarpa/Go-Assignments.git/service"
 	"encoding/json"
 	"fmt"
 	"net/http"
