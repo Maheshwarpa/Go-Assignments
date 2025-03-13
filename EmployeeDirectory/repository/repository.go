@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"github.com/Maheshwarpa/Go-Assignments.git/models"
+	"github.com/Maheshwarpa/Go-Assignments/models"
 	"encoding/json"
 	"errors"
 	"fmt"
