@@ -1,7 +1,7 @@
 package main
 
 import (
-	"Module/book"
+	"github.com/Maheshwarpa/Go-Assignments.git/book"
 	"fmt"
 )
 
