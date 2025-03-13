@@ -1,7 +1,7 @@
 package service
 
 import (
-	"employeeeDirectory/models"
+	"github.com/Maheshwarpa/Go-Assignments.git/models"
 	"net/http"
 )
 
