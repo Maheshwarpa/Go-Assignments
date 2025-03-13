@@ -1,3 +1,3 @@
-module github.com/Maheshwarpa/Go-Assignments.git
+module github.com/Maheshwarpa/Go-Assignments
 
 go 1.23.4
