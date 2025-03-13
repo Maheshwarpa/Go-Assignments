@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/Maheshwarpa/Go-Assignments.git/structPractice"
+	"github.com/Maheshwarpa/Go-Assignments/structPractice"
 )
 
 func main() {
