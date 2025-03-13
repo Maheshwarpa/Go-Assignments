@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-
+	//Hello World!
 	var s structPractice.Student
 
 	s.Name = "Maheshwar"
