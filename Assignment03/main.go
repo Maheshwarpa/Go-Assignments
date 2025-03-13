@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"module/Employee"
+	"github.com/Maheshwarpa/Go-Assignments.git/Employee"
 )
 
 func main() {
