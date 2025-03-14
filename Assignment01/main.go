@@ -11,7 +11,9 @@ func main() {
 	//Hi Hello
 	s.Name = "Maheshwar"
 	s.Marks = []int{10, 10, 10, 10, 10}
-
+	var king int
+	fmt.Scan(&king)
+	fmt.Println("The King Value is :",king)
 	fmt.Println("Average is:", s.CalculateAverage())
 	s.AddMark(20)
 	fmt.Println(s.Name)
