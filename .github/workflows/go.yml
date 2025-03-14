@@ -33,3 +33,7 @@ jobs:
       - name: Build
         working-directory: ./Assignment01
         run: go build -v ./...
+
+      - name: Run
+        working-directory: ./Assignment01
+        run: go run .
