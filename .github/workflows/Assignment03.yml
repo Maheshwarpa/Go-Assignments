@@ -1,1 +1,35 @@
+name: Assignment01_CI/CD
 
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'Assignment03/**'
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Set up Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: 1.21.x  # Use latest stable Go version
+
+      - name: Set Working Directory
+        run: cd ./Assignment03  # Ensure we are in the right directory
+
+      - name: Go Mod Tidy
+        working-directory: ./Assignment03
+        run: go mod tidy
+
+      - name: Build
+        working-directory: ./Assignment03
+        run: go build -v ./...
