@@ -7,7 +7,7 @@ import (
 
 func main() {
 	var b, k book.Book
-	//Added a commen
+	//Added a comment
 	b = book.Book{"KingMaker", "Maheshwar", 1500, 0}
 	k = book.Book{"Lion King", "Sanjay", 2000, 25}
 	b.Display()
