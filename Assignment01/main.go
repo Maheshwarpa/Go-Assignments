@@ -8,7 +8,7 @@ import (
 func main() {
 	//Hello World!
 	var s structPractice.Student
-
+	//Hi
 	s.Name = "Maheshwar"
 	s.Marks = []int{10, 10, 10, 10, 10}
 
