@@ -5,8 +5,10 @@ name: Go
 
 on:
   push:
-    branches: [ "main" ]
-    paths: 'assignment02/**'
+    branches:
+    - main
+    paths:
+    - 'Assignment01/**'
   pull_request:
     branches: [ "main" ]
 
